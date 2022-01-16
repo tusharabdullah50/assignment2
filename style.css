@@ -1,0 +1,120 @@
+/* navigation styles */
+.explore{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+}
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+nav li a{
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    border-bottom: 2px solid transparent;
+    
+}
+nav li a:hover{
+    color: #b40a48;
+}
+body{
+font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* First 1  */
+#title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+
+}
+.Part-1{
+    display: flex;
+}
+.part-1 one{
+    margin: 50px;
+}
+.camera{
+    width: 70%;
+    padding-top: 25px;
+    padding-left: 200px;
+}
+.button-design{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.fas .fa-arrow-right{
+    padding-left: 10px;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0;
+    margin-bottom: 80px;
+}
+/* products */
+.collection{
+    text-align: center;
+    font-size:20p ;
+}
+.results{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px 50px;
+  
+}
+.result{
+    border-radius: 15px;
+    padding: 8px 12px;
+    transition: .3s;
+}
+.results .result-img{
+    width: 100%;
+}
+/* ratting */
+.fa-star.filled{
+    color: #e9e289;
+   
+}
+/* seemore link */
+.see-more-link{
+    text-decoration:none;
+    margin-right: 65px;
+    float: right;
+    
+}
+/* footer */
+footer{
+    display: block;
+    width: 1515px;
+
+    
+}
+.footer{
+    background-color: #0A0826;
+    text-align: center; 
+    color: white;
+}
